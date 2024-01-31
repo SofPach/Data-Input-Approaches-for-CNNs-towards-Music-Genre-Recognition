@@ -1,5 +1,5 @@
 # Data Input Approaches for CNNs towards Music Genre Recognition
 ## Neural Networks and Deep Learning
-
+### Authors: Guillermo Benito Calviño, Sofía Pacheco García
 
 Convolutional Neural Networks (CNN) are a well-studied tool proven to be very efficient for classification tasks. Within this problems the music genre classification of a song is included. The efficiency of a CNN is (obviously) highly dependent on its architecture. That is why some papers, study which is the best one for their specific problem. Conversely, willing to study the relevance of the input of a network, we have taken the best model from the first referenced paper in our report and we compare its performance when being fed by the same data with different degrees of preprocessing: raw data, its spectrogram and the combination of both. We observe that, for our case of study, the spectrogram yields better results and that the combination does not provide any advantages, meaning that the raw data's information is redundant to that of the spectrogram. We also infer that segmenting data into smaller pieces makes the network perform better.
